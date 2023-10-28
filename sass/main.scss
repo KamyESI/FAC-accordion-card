@@ -1,0 +1,9 @@
+$background-color: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+$text-color: hsl(238, 29%, 16%);
+$font: "Kumbh Sans", sans-serif;
+
+body {
+  background: $background-color;
+  font-family: $font;
+  color: $text-color;
+}
