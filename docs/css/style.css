@@ -434,6 +434,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -568,48 +572,28 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-60 {
-  top: 15rem;
-}
-
-.top-40 {
-  top: 10rem;
-}
-
-.top-72 {
-  top: 18rem;
-}
-
-.top-52 {
-  top: 13rem;
 }
 
 .top-44 {
   top: 11rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
+.top-8 {
+  top: 2rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .flex {
@@ -624,8 +608,8 @@ video {
   height: 100vh;
 }
 
-.max-h-96 {
-  max-height: 24rem;
+.max-h-72 {
+  max-height: 18rem;
 }
 
 .w-2\/3 {
@@ -640,8 +624,12 @@ video {
   max-width: 72rem;
 }
 
-.max-w-lg {
-  max-width: 32rem;
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -702,14 +690,14 @@ video {
   text-align: center;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -729,32 +717,32 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:relative {
     position: relative;
+  }
+
+  .lg\:-left-12 {
+    left: -3rem;
   }
 
   .lg\:-left-20 {
     left: -5rem;
   }
 
-  .lg\:-left-52 {
-    left: -13rem;
-  }
-
   .lg\:top-44 {
     top: 11rem;
   }
 
-  .lg\:top-96 {
-    top: 24rem;
+  .lg\:top-80 {
+    top: 20rem;
   }
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
   }
 
   .lg\:items-end {
@@ -767,5 +755,9 @@ video {
 
   .lg\:pr-32 {
     padding-right: 8rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }

@@ -74,6 +74,7 @@ function show_detail(id, text, id1, id2, id3, id4) {
     my_arrow.style.transform = "rotate(180deg)";
     let detail = document.createElement("p");
     detail.innerHTML = text;
+    detail.style.fontSize = "0.8rem";
     detail.style.marginBottom = "20px";
 
     document.getElementById(id).appendChild(detail);
